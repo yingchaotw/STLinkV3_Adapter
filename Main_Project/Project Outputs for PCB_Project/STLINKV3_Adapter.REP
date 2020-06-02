@@ -28,23 +28,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Pad Master
-      File : STLINKV3_Adapter.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D23
-    D24
-    D25
-    D26
-*************************************************************
-
-*************************************************************
 Generating : Keep-Out Layer
       File : STLINKV3_Adapter.GKO
 
@@ -54,6 +37,36 @@ Generating : Keep-Out Layer
 Used DCodes :
     D11
     D33
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : STLINKV3_Adapter.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : STLINKV3_Adapter.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
 *************************************************************
 
 *************************************************************
@@ -73,62 +86,6 @@ Used DCodes :
     D16
     D17
     D18
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : STLINKV3_Adapter.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D23
-    D24
-    D25
-    D26
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : STLINKV3_Adapter.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D31
-    D32
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : STLINKV3_Adapter.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : STLINKV3_Adapter.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
 *************************************************************
 
 *************************************************************
@@ -157,10 +114,8 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : STLINKV3_Adapter.GBS
-
-    Adding Layer      : Bottom Solder
+Generating : Bottom Pad Master
+      File : STLINKV3_Adapter.GPB
 
     Adding Layer      : Bottom Layer
 
@@ -168,9 +123,54 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D15
-    D16
-    D17
-    D18
+    D23
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : STLINKV3_Adapter.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D23
+    D24
+    D25
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : STLINKV3_Adapter.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : STLINKV3_Adapter.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
 *************************************************************
 
