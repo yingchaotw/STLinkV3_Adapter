@@ -8,12 +8,13 @@ This adapter board was designed to retain the STDC14 connector from stlinkv3-min
 
 <img src="./Images/design_translucent.png" width="370"><br>
 
-<img src="./Images/design_top.png" width="180">
+<img src="./Images/design_top.png" width="150">
 
-<img src="./Images/design_bottom.png" width="180">
+<img src="./Images/design_bottom.png" width="150">
 
 ### PCB SAMPLE EXPERT
 [COMPANY](https://star-class.wixsite.com/1pcb)
+<img src="./Images/Product.jpg" width="370">
 
 ## Prerequisite
 [Altium Designer](https://www.altium.com/)
