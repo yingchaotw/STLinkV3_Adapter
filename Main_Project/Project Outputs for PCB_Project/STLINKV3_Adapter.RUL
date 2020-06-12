@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: E:\[電路] STLINK-V3\STLINK-V3-Adapter\Main_Project\STLINKV3_Adapter.PcbDoc
+DRC Rules Export File for PCB: E:\[電路] STLINK-V3\Main_Project\STLINKV3_Adapter.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
