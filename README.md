@@ -24,10 +24,10 @@ This adapter board was designed to retain the STDC14 connector from stlinkv3-min
 
 ### PCB SAMPLE EXPERT
 [COMPANY](http://us.jetpcb.com/)<br>
-Export date at 2020/06/11
+<img src="./Images/Product.jpg" width="270">
 
 [COMPANY](https://star-class.wixsite.com/1pcb)<br>
-<img src="./Images/Product.jpg" width="370">
+<img src="./Images/Product_old.jpg" width="270">
 
 ## Prerequisite
 [Altium Designer](https://www.altium.com/)
@@ -45,6 +45,11 @@ Please feel free to contact me if you need any further information.<br>
 Email: yingcaho.tw@gmail.com
 
 ## Update History
+#### 2021/09/30
+1. Update Readme
+2. Creat license
+3. Diretory Rename
+
 #### 2020/06/10
 1. modify VCP + Vcc & STLINK GNDDetect -> GND (PIN3)
 2. STLINK reference UM2448 at page 24 (SWD connector)
