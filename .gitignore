@@ -7,4 +7,10 @@ Desktop.ini
 /*/__Previews/
 /*/History/
 /*/Project Logs for PCB_Project/
-/PCB Logo Creator/
+/PCB Logo Creatoru/
+
+# MacBoos
+.DS_Store
+*cache
+*bak/
+*backups/

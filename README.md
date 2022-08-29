@@ -30,7 +30,8 @@ This adapter board was designed to retain the STDC14 connector from stlinkv3-min
 <img src="./Images/Product_old.jpg" width="270">
 
 ## Prerequisite
-[Altium Designer](https://www.altium.com/)
+[KiCAD](https://www.kicad.org/)
+[STlink-V3 Module](https://www.snapeda.com/parts/STLINK-V3MODS/STMicroelectronics/view-part/?ref=mouser&welcome=home)
 
 ## STMicroelectronics Documents
 - [STLINK-V3MINI](https://www.st.com/content/st_com/en/products/development-tools/hardware-development-tools/hardware-development-tools-for-stm32/stlink-v3mini.html)
@@ -43,17 +44,3 @@ This adapter board was designed to retain the STDC14 connector from stlinkv3-min
 
 Please feel free to contact me if you need any further information.<br>
 Email: yingcaho.tw@gmail.com
-
-## Update History
-#### 2021/09/30
-1. Update Readme
-2. Creat license
-3. Diretory Rename
-
-#### 2020/06/10
-1. modify VCP + Vcc & STLINK GNDDetect -> GND (PIN3)
-2. STLINK reference UM2448 at page 24 (SWD connector)
-3. Will remove all connected Vcc pins and update the repo again
-
-#### 2020/06/09
-1. update product pcb
