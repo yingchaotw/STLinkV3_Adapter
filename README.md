@@ -1,26 +1,23 @@
 # STlinkV3-Adapter
-Custom developed board that allow you to use the new STLINK-V3Mini.<br>
-This adapter board was designed to retain the STDC14 connector from stlinkv3-mini.
+Custom developed board that allow you to use the [STlink-V3mini](https://www.st.com/en/development-tools/stlink-v3mini.html) or [STlink-V3MODS](https://www.st.com/en/development-tools/stlink-v3mods.html).<br>This adapter board was designed to retain the STDC14 connector from [STlink-V3mini](https://www.st.com/en/development-tools/stlink-v3mini.html).
 
 **SWD connector**
-|Pin Number|Description|
-|----------|-----------|
-|       1  | T_VCC     |
-|       2  | T_SWCLK   |
-|       3  | GND       |
-|       4  | T_SWDIO   |
-|       5  | T_NRST    |
-|       6  | T_SWO     |
+|Pin |   Description  |
+|----|----------------|
+| 1  | Target_VCC     |
+| 2  | Target_SWCLK   |
+| 3  | Target_GND     |
+| 4  | Target_SWDIO   |
+| 5  | Target_NRST    |
+| 6  | Target_SWO     |
 
 ## Preview of the board:
 
 [More information](/Main_Project/PCB_Project.pdf)
 
-<img src="./Images/design_translucent.png" width="370"><br>
+<img src="./Images/PCB_design.png" width="330">
 
-<img src="./Images/design_top.png" width="150">
-
-<img src="./Images/design_bottom.png" width="150">
+The newly designed interposer board has not passed production verification, be careful of to use the adapter.
 
 ### PCB SAMPLE EXPERT
 [COMPANY](http://us.jetpcb.com/)<br>
@@ -39,8 +36,11 @@ This adapter board was designed to retain the STDC14 connector from stlinkv3-min
 - [User manual UM2502](/Documents/UM2502-stlink-v3-debuggers-programmers-for-stm32-stmicroelectronics.pdf)
 - [STLinkV3-Bridge](https://www.st.com/en/development-tools/stlink-v3-bridge.html)
 
+## Contact us
 
-## Social Media Links
+Please feel free to contact me if you need any further information.<br> Email: yingcaho.tw@gmail.com
 
-Please feel free to contact me if you need any further information.<br>
-Email: yingcaho.tw@gmail.com
+# Contributer
+
+Thank [@JojoS62](https://github.com/JojoS62) created a small box that can be 3D printed:
+https://www.thingiverse.com/thing:5101077
