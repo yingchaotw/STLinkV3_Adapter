@@ -13,18 +13,17 @@ Custom developed board that allow you to use the [STlink-V3mini](https://www.st.
 
 ## Preview of the board:
 
-[More information](/Main_Project/PCB_Project.pdf)
+[More information](/Main_Circuit/STLinkV3_Adapter.pdf)
 
 <img src="./Images/PCB_design.png" width="330">
 
 The newly designed interposer board has not passed production verification, be careful of to use the adapter.
 
 ### PCB SAMPLE EXPERT
-[COMPANY](http://us.jetpcb.com/)<br>
-<img src="./Images/Product.jpg" width="270">
+Rev 1.1 [COMPANY](http://us.jetpcb.com/)<br><img src="./Images/Product.jpg" width="270">
+<br>
 
-[COMPANY](https://star-class.wixsite.com/1pcb)<br>
-<img src="./Images/Product_old.jpg" width="270">
+Rev 1.0 [COMPANY](https://star-class.wixsite.com/1pcb)<br><img src="./Images/Product_old.jpg" width="270">
 
 ## Prerequisite
 [KiCAD](https://www.kicad.org/)
