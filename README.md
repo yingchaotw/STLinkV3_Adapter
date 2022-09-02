@@ -1,36 +1,33 @@
 # STlinkV3-Adapter
-Custom developed board that allow you to use the new STLINK-V3Mini.<br>
-This adapter board was designed to retain the STDC14 connector from stlinkv3-mini.
+Custom developed board that allow you to use the [STlink-V3mini](https://www.st.com/en/development-tools/stlink-v3mini.html) or [STlink-V3MODS](https://www.st.com/en/development-tools/stlink-v3mods.html).<br>This adapter board was designed to retain the STDC14 connector from [STlink-V3mini](https://www.st.com/en/development-tools/stlink-v3mini.html).
 
 **SWD connector**
-|Pin Number|Description|
-|----------|-----------|
-|       1  | T_VCC     |
-|       2  | T_SWCLK   |
-|       3  | GND       |
-|       4  | T_SWDIO   |
-|       5  | T_NRST    |
-|       6  | T_SWO     |
+|Pin |   Description  |
+|----|----------------|
+| 1  | Target_VCC     |
+| 2  | Target_SWCLK   |
+| 3  | Target_GND     |
+| 4  | Target_SWDIO   |
+| 5  | Target_NRST    |
+| 6  | Target_SWO     |
 
 ## Preview of the board:
 
-[More information](/Main_Project/PCB_Project.pdf)
+[More information](/Main_Circuit/STLinkV3_Adapter.pdf)
 
-<img src="./Images/design_translucent.png" width="370"><br>
+<img src="./Images/PCB_design.png" width="330">
 
-<img src="./Images/design_top.png" width="150">
-
-<img src="./Images/design_bottom.png" width="150">
+The newly designed interposer board has not passed production verification, be careful of to use the adapter.
 
 ### PCB SAMPLE EXPERT
-[COMPANY](http://us.jetpcb.com/)<br>
-<img src="./Images/Product.jpg" width="270">
+Rev 1.1 [COMPANY](http://us.jetpcb.com/)<br><img src="./Images/Product.jpg" width="270">
+<br>
 
-[COMPANY](https://star-class.wixsite.com/1pcb)<br>
-<img src="./Images/Product_old.jpg" width="270">
+Rev 1.0 [COMPANY](https://star-class.wixsite.com/1pcb)<br><img src="./Images/Product_old.jpg" width="270">
 
 ## Prerequisite
-[Altium Designer](https://www.altium.com/)
+[KiCAD](https://www.kicad.org/)
+[STlink-V3 Module](https://www.snapeda.com/parts/STLINK-V3MODS/STMicroelectronics/view-part/?ref=mouser&welcome=home)
 
 ## STMicroelectronics Documents
 - [STLINK-V3MINI](https://www.st.com/content/st_com/en/products/development-tools/hardware-development-tools/hardware-development-tools-for-stm32/stlink-v3mini.html)
@@ -38,22 +35,11 @@ This adapter board was designed to retain the STDC14 connector from stlinkv3-min
 - [User manual UM2502](/Documents/UM2502-stlink-v3-debuggers-programmers-for-stm32-stmicroelectronics.pdf)
 - [STLinkV3-Bridge](https://www.st.com/en/development-tools/stlink-v3-bridge.html)
 
+## Contact us
 
-## Social Media Links
+Please feel free to contact me if you need any further information.<br> Email: yingcaho.tw@gmail.com
 
-Please feel free to contact me if you need any further information.<br>
-Email: yingcaho.tw@gmail.com
+# Contributer
 
-## Update History
-#### 2021/09/30
-1. Update Readme
-2. Creat license
-3. Diretory Rename
-
-#### 2020/06/10
-1. modify VCP + Vcc & STLINK GNDDetect -> GND (PIN3)
-2. STLINK reference UM2448 at page 24 (SWD connector)
-3. Will remove all connected Vcc pins and update the repo again
-
-#### 2020/06/09
-1. update product pcb
+Thank [@JojoS62](https://github.com/JojoS62) created a small box that can be 3D printed:
+https://www.thingiverse.com/thing:5101077
